@@ -1,17 +1,23 @@
-header {
-    display:flex;
-    flex-direction: row;
-    width:100vw;
-    height:120px;
-
-    background-color:black
-}
-
-header > .menu {
- whidth: 50px ;
- height: 50px;
-}
-
-header > .logo {
+body {
+    margin: 0;
+    padding: 0;
+  }
   
-}
+  .principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 50px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
